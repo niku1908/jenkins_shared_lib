@@ -1,3 +1,6 @@
 def call(){
-    sh './mvnw test'
+    sh '''
+    chmod +x mvnw
+    ./mvnw test
+    '''
 }
