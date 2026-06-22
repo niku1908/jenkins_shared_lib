@@ -1,3 +1,3 @@
 def call(){
-    sh './mvnw clean install -DskipTests'
+    sh 'mvn clean install -DskipTests'
 }
